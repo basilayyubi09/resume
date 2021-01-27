@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/myselff.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
+  <a class="navbar-brand" href="#">Basil Ayyubi</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#first-section">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#second-section">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#third-section">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#forth-section">Resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#fifth-section">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    </div>
+    <div class="container">
+       
+    <!-- FIRST SECTION STARTS -->
+    <div id="first-section">
+        <div class="row">
+            <div class="col-sm-12">
+                
+                    <div id="first-content">
+                        
+                        <h1>I'm Basil ayyubi!</h1>
+                        <h3>Creative Developer</h3>  
+                        <p>22 years young, student and cricket player,chae addict..</p>   
+                        <button type="button" class="btn btn-danger btn-md shadow-none">KNOW ME BETTER</button>
+                        
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-- FIRST SECTION ENDS -->
+
+    <!-- SECOND SECTION STARTS -->
+    <div id="second-section">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="second-content">
+                    <h1>HELLO, my name is basil!</h1> 
+                    <p>Basil Ayyubi, 22 years young, born & grew up in Malegaon (Nashik), Highly motivated creative developer.</p>
+                    <p id="line"></p>  
+                    <p id="content">Currently I'm studying in Msc Computer Science in pune universty. I spent my most of times in learning android and web designing. <br><br >Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquam praesentium eligendi animi accusantium ad provident neque perferendis laboriosam, vitae at ex commodi ratione iure, incidunt perspiciatis distinctio veniam adipisci.</br>
+                    <br>        
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="row" stytle="padding:30px;">
+            
+            <div class="col-sm-5 m-auto">
+                <h3 style="color:white;">CONTACT DETAILS:</h3><br>
+                <p style="color:#fdfafa;">BASIL AYYUBI <br>458, Shani war ward Motipura, Malegaon <br> <a style="color: #fdfafa;"href="+917768939338">Mob: +917768939338</a>
+                <br> <a style="color: #fdfafa; "href="basilayyubi09@gmail.com">basilayyubi09@gmail.com</a>
+                </p> 
+            </div>
+            <div class="col-sm-5 m-auto">
+            <button type="button" class="btn btn-danger btn-md shadow-none">DOWNLOAD RESUME</button>
+            </div>
+        </div>
+    </div>
+    <!-- SECOND SECTION ENDS -->
+
+    <!-- THIRD SECTON STARTS -->
+    <div id="third-section">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="third-content">
+                    <h1>WHAT I'M DOING</h1> 
+                    <br>
+                    <div class="col-sm-9 m-auto">
+                    <p id="third-p">I love what I do. I take pride in what I do. And I can't do something halfway, three quarters, nine-tenths. If I'm going to do something, I go all the way.</p>
+                    </div>
+                    <hr id="third-line"></hr>
+                    <br>        
+                </div>
+            </div>
+        </div>
+        <!-- BOX 1 STARTS -->
+        <div id="box-one" style="background-color: rgba(20, 20, 20, 0.973);"> 
+            <div class="col-md-12">
+                <div class="row">                                   
+                    <div id="box-content">               
+                        <img id="img" src="https://img.icons8.com/nolan/512/fa314a/strategy-board.png"/>
+                        <h3>1. STRATEGY</h3>
+                        <hr id="box-line"></hr>
+                        <p style="font-size:20px; text-align:center; padding:5px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod rem perspiciatis corporis maxime natus unde deleniti necessitatibus impedit quis illum? Ratione et aut illo enim eos quod velit eveniet eius?</p>          
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- BOX 1 ENDS -->
+
+         <!-- BOX 2 STARTS -->
+         <div id="box-one"> 
+            <div class="col-md-12">
+                <div class="row">                                   
+                    <div id="box-content">               
+                        <img id="img" src="https://img.icons8.com/wired/512/fa314a/leaf.png"/>
+                        <h3>2. BRANDING</h3>
+                        <hr id="box-line"></hr>
+                        <p style="font-size:20px; text-align:center; padding:5px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod rem perspiciatis corporis maxime natus unde deleniti necessitatibus impedit quis illum? Ratione et aut illo enim eos quod velit eveniet eius?</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- BOX 2 ENDS -->
+
+        <!-- BOX 3 STARTS -->
+        <div id="box-one" style="background-color: rgba(20, 20, 20, 0.973);"> 
+            <div class="col-md-12">
+                <div class="row">                                   
+                    <div id="box-content">               
+                        <img id="img" src="https://img.icons8.com/pastel-glyph/512/fa314a/web-design--v2.png"/>
+                        <h3>3. WEB DESIGN</h3>
+                        <hr id="box-line"></hr>
+                        <p style="font-size:20px; text-align:center; padding:5px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod rem perspiciatis corporis maxime natus unde deleniti necessitatibus impedit quis illum? Ratione et aut illo enim eos quod velit eveniet eius?</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- BOX 3 ENDS -->
+
+         <!-- BOX 4 STARTS -->
+         <div id="box-one"> 
+            <div class="col-md-12">
+                <div class="row">                                   
+                    <div id="box-content">                                        
+                        <img id="img" src="https://img.icons8.com/wired/512/fa314a/comments.png"/>
+                        <h3>4. SOCIAL MEDIA</h3>
+                        <hr id="box-line"></hr>
+                        <p style="font-size:20px; text-align:center; padding:5px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod rem perspiciatis corporis maxime natus unde deleniti necessitatibus impedit quis illum? Ratione et aut illo enim eos quod velit eveniet eius?</p>                                                                                        
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- BOX 4 ENDS -->
+
+        <!-- BOX 5 STARTS -->
+        <div id="box-one" style="background-color: rgba(20, 20, 20, 0.973);"> 
+            <div class="col-md-12">
+                <div class="row">                                   
+                    <div id="box-content">                                        
+                            <img id="img" src="https://img.icons8.com/dotty/512/fa314a/development-skill.png"/>
+                            <h3>5. DEVELOPMENT</h3>
+                            <hr id="box-line"></hr>
+                            <p style="font-size:20px; text-align:center; padding:5px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod rem perspiciatis corporis maxime natus unde deleniti necessitatibus impedit quis illum? Ratione et aut illo enim eos quod velit eveniet eius?</p>                                                                                        
+                        </div>
+                </div>
+            </div>
+        </div> 
+        <!-- BOX 5 ENDS -->
+
+         <!-- BOX 6 STARTS -->
+         <div id="box-one"> 
+            <div class="col-md-12">
+                <div class="row">                                   
+                    <div id="box-content">                                        
+                        <img id="img" src="https://img.icons8.com/wired/512/fa314a/technical-support.png"/>
+                        <h3>6. CONSULTING</h3>
+                        <hr id="box-line"></hr>
+                        <p style="font-size:20px; text-align:center; padding:5px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod rem perspiciatis corporis maxime natus unde deleniti necessitatibus impedit quis illum? Ratione et aut illo enim eos quod velit eveniet eius?</p>                                                                                        
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- BOX 6 ENDS -->
+
+    </div>
+    <!-- THIRD SECTION ENDS -->
+
+     <!-- FOURTH SECTON STARTS -->
+     <div id="forth-section">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="forth-content">
+                    <h1>MY resume</h1> 
+                    <br>
+                    <div class="col-sm-9 m-auto">
+                    <p id="third-p">If you call failures experiments, you can put them in your resume and claim them as achivements.</p>
+                    </div>
+                    <hr id="third-line"></hr>
+                    <br>        
+                </div>
+            </div>
+        </div>
+         <!-- BOX 6 STARTS -->
+         <div id="forth-one"> 
+            <div class="col-md-12">
+                <div class="row">                                   
+                       
+                    <div class="col-sm-8 col-md-8 m-auto" style="padding:10px;color:white;">
+                        <p style="text-align:left; font-size:19px; font-style:italic;">Hello! I'm Basil Ayyubi. Web and Android developer from Malegaon, India. I have rich experience in web and android development, I am aslo good at wordpress. I love to talk with you about our unique work.</p>
+                        <div class="row">
+                            <div class="col-sm-4 col-md-4 m-auto">
+                               <br>
+                               <p style="text-align:left; color: #fdfafa;">
+                                <b style="color:#c80a48 ;">Date of Birth</b> : 20/05/1998 <br>
+                                <b style="color:#c80a48 ;">Gender</b> : Male<br>
+                                <b style="color:#c80a48 ;">Phone</b> : <a href="+917768939338" style="color:white;">+917768939338</a> <br><br><button type="button" class="btn btn-danger btn-md shadow-none">DOWNLOAD CV</button></p>
+                                
+                            </div>
+                            <div class="col-sm-5 col-md-5 m-auto">
+                                <p style="text-align:left; color: #fdfafa;"><b style="color:#c80a48 ;">Residence</b> : INDIA <br>   
+                                <b style="color:#c80a48 ;">Address</b> : H No. 458 motipura Malegaon Nasik <br>
+                                <b style="color:#c80a48 ;">Email</b> : <a href="basilayyubi09@gmail.com" style="color:white;">basilayyubi09@gmail.com</a> </p>
+                            </div>
+                        </div>
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- BOX 6-1 STARTS -->
+            <div class="col-md-12">
+            <h2 class="text-light m-3"style="font-weight:900;">Education</h2>
+                <div class="row">                                   
+                    
+                    <div class="col-sm-4 col-md-4 m-auto" style="padding:10px;color:white;">
+                             <div id="ssc">
+                                <h5 style="font-weight:900;"> SSC</h5>
+                                <h6>SCHOOL: The Malegaon High School</h6>
+                                 Passing Year 2014                        
+                                <p>Successfully completed my SSC in Malegaon high school in year 2014 with <b> 80% </b></p>
+                             </div>                              
+                    </div>
+                    <div class="col-sm-4 col-md-4 m-auto" style="padding:10px;color:white;">
+                             <div id="hsc">
+                                <h5 style="font-weight:900;"> HSC</h5>
+                                <h6>SCHOOL: The Malegaon High School & Jr College</h6>
+                                 Passing Year 2016                        
+                                <p>Successfully completed my HSC in Malegaon high school in year & jr College 2016 with <b> 60% </b></p>
+                             </div>                              
+                    </div>
+                    <div class="col-sm-4 col-md-4 m-auto" style="padding:10px;color:white;">
+                             <div id="graduation">
+                                <h5 style="font-weight:900;" > BSC (Computer Science)</h5>
+                                <h6>COLLEGE : MSG Arts Science & Commerse College Malegaon</h6>
+                                 Passing Year 2020                        
+                                <p>Graduated from Savitri Bai Phule Pune University in year 2020 with <b>72% WITH DISTINCTION </b> </p>
+                             </div>                              
+                    </div>
+                </div>
+            </div>
+            <!-- BOX 6-1 ENDS -->
+
+
+            <!-- BOX 6-2 STARTS -->
+            <div class="col-md-12">
+            <h2 class="text-light m-3" style="font-weight:900;">EXPERIANCE</h2>
+                <div class="row">                                   
+                    
+                    <div class="col-sm-4 col-md-4 m-auto" style="padding:10px;color:white;">
+                                                          
+                    </div>
+                    <div class="col-sm-4 col-md-4 m-auto" style="padding:10px;color:white;">
+                    <div id="trainee">
+                                <h5 style="font-weight:900;"> TRAINEE <br><small> Jan 2019- Nov 2019</small></h5>
+                                
+                                <h6>At Shariz Pvt Ltd </h6>
+                                                        
+                                <p>In Shariz pvt ltd, as a traniee I have completed total 3 projects based on HTML, CSS, BOOTSTRAP, PHP, MYSQL and JAVASCRIPT.</p>
+                             </div>                              
+                    </div>
+                    <div class="col-sm-4 col-md-4 m-auto" style="padding:10px;color:white;">
+                                                         
+                    </div>
+                </div>
+            </div>
+            <!-- BOX 6-2 ENDS -->
+
+             <!-- BOX 6-3 STARTS -->
+             <div class="col-md-12">
+            <h2 class="text-light m-3"style="font-weight:900;">LANGUAGES</h2>
+                <div class="row">                                   
+                    
+                    <div class="col-sm-3 col-md-3 m-auto" style="padding:10px;color:white;">
+                             <div id="english">
+                                <h5 style="font-weight:900;"> ENGLISH</h5>
+                                <h6>Business Fluent</h6>
+                                <li>Read: YES</li>
+                                <li>Write: YES</li>
+                                <li>Speak: YES</li><br>
+                             </div>                              
+                    </div>
+                    <div class="col-sm-3 col-md-3 m-auto" style="padding:10px;color:white;">
+                             <div id="english">
+                                <h5 style="font-weight:900;"> URDU</h5>
+                                <h6>Native</h6>
+                                <li>Read: YES</li>
+                                <li>Write: YES</li>
+                                <li>Speak: YES</li><br>
+                             </div>                              
+                    </div>
+                    <div class="col-sm-3 col-md-3 m-auto" style="padding:10px;color:white;">
+                             <div id="english">
+                                <h5 style="font-weight:900;">  MARATHI</h5>
+                                <h6>Intermediate</h6>
+                                
+                                <li>Read: YES</li>
+                                <li>Write: YES</li>
+                                <li>Speak: YES</li><br>
+                             </div>                              
+                    </div>
+                    <div class="col-sm-3 col-md-3 m-auto" style="padding:10px;color:white;">
+                             <div id="english">
+                                <h5 style="font-weight:900;"> HINDI</h5>
+                                <h6>Business Fluent</h6>
+                                
+                                <li>Read: YES</li>
+                                <li>Write: YES</li>
+                                <li>Speak: YES</li><br>
+                             </div>                              
+                    </div>
+                </div>
+            </div>
+            <!-- BOX 6-3 ENDS -->
+            
+             <!-- BOX 6-4 STARTS -->
+             <div class="col-md-12">
+            <h2 class="text-light m-3" style="font-weight:900;">SKILLS</h2>
+                <div class="row" style="text-align:left;">                                   
+                    
+                    <div class="col-sm-12 col-md-11 m-auto" style="padding:10px;color:white;">
+                        <div class="skill-name">
+                            <h5 style="font-weight:900;">HTML/ CSS</h5>
+                           <div class="prog">
+                               <div class="prog-in" style="width:90%;"></div>
+                               <div class="skill-percent">90%</div>
+                           </div>
+                        </div>
+                        <div class="skill-name">
+                            <h5 style="font-weight:900;">BOOTSTRAP</h5>
+                           <div class="prog">
+                               <div class="prog-in" style="width:95%;"></div>
+                               <div class="skill-percent">95%</div>
+                           </div>
+                        </div>
+                        <div class="skill-name">
+                            <h5 style="font-weight:900;">JAVASCRIPT/ REACT JS</h5>
+                           <div class="prog">
+                               <div class="prog-in" style="width:60%;"></div>
+                               <div class="skill-percent">60%</div>
+                           </div>
+                        </div>
+                        <div class="skill-name">
+                            <h5 style="font-weight:900;">PHP/ MYSQL/ MONGO DB</h5>
+                           <div class="prog">
+                               <div class="prog-in" style="width:88%;"></div>
+                               <div class="skill-percent">88%</div>
+                           </div>
+                        </div>
+                        <div class="skill-name">
+                            <h5 style="font-weight:900;">WORDPRESS</h5>
+                           <div class="prog">
+                               <div class="prog-in" style="width:70%;"></div>
+                               <div class="skill-percent">70%</div>
+                           </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- BOX 6-4 ENDS -->
+
+            <!-- BOX 6-5 STARTS -->
+            <div class="col-md-12">
+            <h2 class="text-light m-3" style="font-weight:900;">SERVICES</h2>
+                <div class="row">                                   
+                    
+                <div class="col-sm-4 col-md-4 m-auto" style="padding:10px;color:white;">
+                    <div id="service">
+                                <img id="service-img" src="https://img.icons8.com/pastel-glyph/512/fa314a/web-design--v2.png"/> 
+                                <h5 style="font-weight:900;"> Web Devlopment </h5>
+                                <p>In Shariz pvt ltd, as a traniee I have completed total 3 projects based on HTML, CSS, BOOTSTRAP, PHP, MYSQL and JAVASCRIPT.</p>
+                             </div>                              
+                    </div>
+                    <div class="col-sm-4 col-md-4 m-auto" style="padding:10px;color:white;">
+                    <div id="service">
+                                <img id="service-img" src="https://img.icons8.com/pastel-glyph/512/fa314a/web-design--v2.png"/> 
+                                <h5 style="font-weight:900;"> UI </h5>
+                                <p>In Shariz pvt ltd, as a traniee I have completed total 3 projects based on HTML, CSS, BOOTSTRAP, PHP, MYSQL and JAVASCRIPT.</p>
+                             </div>                              
+                    </div>
+                    <div class="col-sm-4 col-md-4 m-auto" style="padding:10px;color:white;">
+                    <div id="service">
+                                <img id="service-img" src="https://img.icons8.com/pastel-glyph/512/fa314a/web-design--v2.png"/> 
+                                <h5 style="font-weight:900;"> Front End </h5>
+                                <p>In Shariz pvt ltd, as a traniee I have completed total 3 projects based on HTML, CSS, BOOTSTRAP, PHP, MYSQL and JAVASCRIPT.</p>
+                             </div>                              
+                    </div>
+
+                    <div class="row" style="margin-right:2px; margin-left:2px;">                                   
+                    
+                <div class="col-sm-4 col-md-4 m-auto" style="padding:10px;color:white;">
+                    <div id="service">
+                                <img id="service-img" src="https://img.icons8.com/pastel-glyph/512/fa314a/web-design--v2.png"/> 
+                                <h5 style="font-weight:900;"> Responsive </h5>
+                                <p>In Shariz pvt ltd, as a traniee I have completed total 3 projects based on HTML, CSS, BOOTSTRAP, PHP, MYSQL and JAVASCRIPT.</p>
+                             </div>                              
+                    </div>
+                    <div class="col-sm-4 col-md-4 m-auto" style="padding:10px;color:white;">
+                    <div id="service">
+                                <img id="service-img" src="https://img.icons8.com/pastel-glyph/512/fa314a/web-design--v2.png"/> 
+                                <h5 style="font-weight:900;"> Wordpress </h5>
+                                <p>In Shariz pvt ltd, as a traniee I have completed total 3 projects based on HTML, CSS, BOOTSTRAP, PHP, MYSQL and JAVASCRIPT.</p>
+                             </div>                              
+                    </div>
+                    <div class="col-sm-4 col-md-4 m-auto" style="padding:10px;color:white;">
+                    <div id="service">
+                                <img id="service-img" src="https://img.icons8.com/pastel-glyph/512/fa314a/web-design--v2.png"/> 
+                                <h5 style="font-weight:900;">Advance Options</h5>
+                                <p>In Shariz pvt ltd, as a traniee I have completed total 3 projects based on HTML, CSS, BOOTSTRAP, PHP, MYSQL and JAVASCRIPT.</p>
+                             </div>                              
+                    </div>
+                </div>
+            </div>
+            <!-- BOX 6-5 ENDS -->
+
+        </div> 
+        <!-- BOX 6 ENDS -->
+</div> 
+    </div>
+    <!-- FOURTH SECTION ENDS -->
+    
+    <!-- last SECTION STARTS -->
+    <div id="fifth-section">
+        <div class="row">
+            <div class="col-sm-12 m-auto">
+                <div id="fifth-content">
+                    <h1>CONTACT ME </h1> 
+                    <p>Have a project you'd like to discuss?</p>
+                    <p id="fifth-line"></p>  
+                   
+                    <br>         
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+            <form>
+                <div class="form-group text-light">
+                    <label for="exampleFormControlInput1 ">Name</label>
+                    <input type="text" class="form-control text-light " id="exampleFormControlInput1" placeholder="Name">
+                </div>
+                <div class="form-group text-light">
+                    <label for="exampleFormControlInput1">Email </label>
+                    <input type="email" class="form-control text-light " id="exampleFormControlInput2" placeholder="name@example.com">
+                </div>
+                <div class="form-group text-light ">
+                    <label for="exampleFormControlInput1">Subject</label>
+                    <input type="text" class="form-control text-light" id="exampleFormControlInput3" placeholder="Subject">
+                </div>
+                <div class="form-group text-light">
+                    <label for="exampleFormControlTextarea1 ">Message</label>
+                    <textarea class="form-control text-light" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <br>
+                <br> 
+                <button type="button" class="btn btn-danger btn-lg btn-block shadow-none">SEND MESSAGE</button>
+             </form>
+            </div>
+        </div>
+    </div>
+    <!-- LAST SECTION ENDS -->
+
+
+    <!-- FOOTER START -->
+
+    <div class="footer-section "style="background-color: rgba(20, 20, 20, 0.973); "> 
+            <div class="col-md-12 m-auto">
+                <div class="row">                                   
+                    <div id="footer-content">                                        
+                       
+                        <p>@2021 Basil Ayyubi. All rights reseverd.</p>                                                                                        
+                    </div>
+                </div>
+            </div>
+        </div> 
+    <!-- FOOTER END -->
+
+</div>
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script src="plugins/jquery.appear.min.js"></script>
+<script src="jquery.easypiechart.min.js"></script>
+</body>
+</html>
+
+

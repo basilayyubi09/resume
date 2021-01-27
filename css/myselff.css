@@ -1,0 +1,336 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+#first-section{
+    width: 100%;
+    height: 700px;
+    background-image: url(../image/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+#first-content {
+    padding: 30px;
+    position: relative;
+    top: 70%;    
+   
+
+}
+#first-content > h1
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+}
+#first-content > h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: white;
+}
+#first-content > p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.btn-danger , .btn-danger:hover , .btn-danger:active ,.btn-danger:visited{
+    background-color: #c80a48 !important;
+}
+
+#second-section{
+    margin-top: 1px;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: black;
+    
+    
+}
+#second-content {
+    padding: 30px;
+    position: relative;
+        
+    
+   
+}
+#second-content > h1
+{
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    
+    color: white;
+}
+#second-content > h3{
+    font-family:'Courier New', Courier, monospace;
+    /* font-weight: bold; */
+}
+#second-content > p {
+    color: #fdfafa;
+    font-family:'Courier New', Courier, monospace;
+    /* font-weight: bold; */
+}
+#line
+{
+    border-bottom: 6px solid #c80a48;
+    width: 70px;
+ }
+#content{
+    /* margin-left: 20px; */
+    margin-right: 40px;
+    font-size: 18px;
+}
+#third-section{
+    margin-top: 1px;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: black;   
+}
+#third-content {
+    padding: 30px;
+    position: relative;  
+}
+#third-content > h1
+{
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+#third-p{
+    color: #fdfafa;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+   
+    font-style: italic;
+    /* font-weight: bold; */
+}
+#third-line{
+    justify-content: center;
+    align-items: center;
+    border-bottom: 6px solid #c80a48;
+    width: 100px;
+    
+}
+#box-one
+{
+    position: relative;
+    left: 15%;
+    
+    width: 70%;
+    height:auto;
+    
+  
+}
+#box-content{
+   
+    color: azure;
+    text-align: center;
+    padding: 20px;
+   
+} 
+#box-line{
+    justify-content: center;
+    align-items: center;
+    border-bottom: 6px solid #c80a48;
+    width: 65px;
+}
+#img{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 20px;
+    
+}
+#forth-section{
+    margin-top: 1px;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: black;   
+}
+#forth-content {
+    padding: 30px;
+    position: relative;  
+}
+#forth-content > h1
+{
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+#forth-one
+{
+    
+    
+    text-align: center;
+        
+}
+#ssc{
+    height: 200px;
+    border:0.5px dashed #c80a48 ;
+     padding:5px;
+     
+}
+#ssc > h5{
+    margin-top: 10px;
+}
+#hsc{
+    height: 200px;
+    border:0.5px dashed #c80a48 ;
+     padding:5px;
+     
+}
+#graduation{
+    height: 200px;
+    border:0.5px dashed #c80a48 ;
+     padding:5px;
+}
+#trainee{
+    height: 210px;
+    border:0.1px dashed #c80a48 ;
+     padding:5px;
+}
+
+#img1{
+    height: auto;
+    width: 150px;
+    position: relative;
+    top: 40px;
+    border: deeppink 2px solid;
+}
+#english{
+    
+    border:0.5px dashed #c80a48 ;
+    
+     padding:5px;
+     margin-bottom: 2px;
+     
+}
+#english > h5{
+    margin-top: 10px;
+}
+.prog{
+    height: 4px;
+    background: white;
+    position: relative;
+    border-radius: 2px;
+    width: 100%;
+}
+.prog-in{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 1px;
+    background: #c80a48;
+}
+.skill-percent{
+    line-height: 40px;
+    position: absolute;
+    right: 0;
+    top: -40px;
+    font-weight: 900;
+}
+.skill-name{
+    margin-bottom: 35px;
+
+}
+#service-img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+
+#service{
+    
+    height: 260px;
+    border:0.1px dashed #c80a48 ;
+     padding:5px;
+}
+#fifth-section{
+    
+    margin-top: 1px;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: black;   
+}
+#fifth-content {
+    padding: 30px;
+    position: relative;  
+}
+#fifth-content > h1
+{
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+#fifth-content > p{
+    color: #fdfafa;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+   
+    font-style: italic;
+    /* font-weight: bold; */
+}
+#fifth-line{
+    
+    border-bottom: 6px solid #c80a48;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    left: 45%;
+}
+#exampleFormControlInput1{
+    background-color: black;
+    border: 1px solid#c80a48;
+}
+#exampleFormControlInput2{
+    background-color: black;
+    border: 1px solid#c80a48;
+}
+#exampleFormControlInput3{
+    background-color: black;
+    border: 0.5px solid#c80a48;
+}
+#exampleFormControlTextarea1{
+    background-color: black;
+    border: 1px solid#c80a48;
+}
+
+#footer-section{
+    
+    
+    width: 100%;
+    height: auto;
+    
+      
+}
+#footer-content {
+    padding: 30px;
+    position: relative;  
+}
+
+#footer-content > p{
+    color: #fdfafa;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+   
+    font-weight: 400;
+    /* font-weight: bold; */
+}
